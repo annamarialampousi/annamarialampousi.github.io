@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 2
+title: template
 description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+img: /assets/img/12.jpg
+importance: 0
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
@@ -17,6 +18,9 @@ To give your project a background in the portfolio page, just add the img tag to
     title: project
     description: a project with a background image
     img: /assets/img/12.jpg
+    
+    To redirect to a website use:
+    redirect: https://unsplash.com
     ---
 
 <div class="row">
